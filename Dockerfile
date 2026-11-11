@@ -7,7 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-ENV DATABASE_URL="postgresql://neondb_owner:TU_CONTRASEÑA_REAL@ep-frosty-frost-b2cjrwpd-pooler.c-6.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+ENV DATABASE_URL="postgresql://neondb_owner:npg_PjAz4Q8ltpLd@ep-frosty-frost-b2cjrwpd-pooler.c-6.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 
 EXPOSE 8000
 
